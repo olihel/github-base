@@ -1,0 +1,11 @@
+/*!
+ * {{title}}
+ * https://github.com/olihel/{{name}}.git
+ *
+ * Copyright (c) {{year}} Oliver Hellebusch
+ * Released under MIT license (http://olihel.github.io/{{name}}/LICENSE)
+ */
+
+html, body {
+    font-family: Helvetica, Arial, sans-serif
+}
