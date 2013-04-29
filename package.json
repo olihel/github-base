@@ -13,6 +13,8 @@
   "dependencies": {
   },
   "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-devserver": "~0.2.2"
   },
   "repository": {
     "type": "git",
