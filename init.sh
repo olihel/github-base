@@ -14,6 +14,15 @@ if [ ! -d ".git" ]; then
   exit 1
 fi
 
+git rev-parse HEAD &> /dev/null
+exitCode=$?
+if [ $exitCode == 0 ]; then
+  echo
+  echo "git repo already initialized!"
+  echo
+  exit 1
+fi
+
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo
   echo "Please provide a project title and name for repo initialization:"
