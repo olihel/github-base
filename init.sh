@@ -7,8 +7,14 @@
 # Released under MIT license
 #
 
-if [ -z "$1" ] || [ -z "$2" ];
-then
+if [ ! -d ".git" ]; then
+  echo
+  echo "No git repo or not in the root of a repo!"
+  echo
+  exit 1
+fi
+
+if [ -z "$1" ] || [ -z "$2" ]; then
   echo
   echo "Please provide a project title and name for repo initialization:"
   echo "$0 \"Project Name\" \"project-name\""
