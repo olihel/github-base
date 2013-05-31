@@ -8,7 +8,7 @@
   "readmeFilename": "README.md",
   "licenses": [{
     "type": "MIT",
-    "url": "http://olihel.github.io/{{name}}/LICENSE"
+    "url": "https://github.com/olihel/{{name}}/blob/master/LICENSE"
   }],
   "dependencies": {
   },
