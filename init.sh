@@ -4,7 +4,7 @@
 # https://github.com/olihel/github-base.git
 #
 # Copyright (c) 2013 Oliver Hellebusch
-# Released under MIT license
+# Released under MIT license (https://raw.github.com/olihel/github-base/master/LICENSE)
 #
 
 if [ ! -d ".git" ]; then
