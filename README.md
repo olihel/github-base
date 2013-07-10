@@ -5,7 +5,7 @@ Simple initialization of a GitHub project that uses GitHub pages.
 
 Copy *hooks/post-commit* into the *.git/hooks* folder for automatically updating the *ghpages* branch on each commit.
 
-[![githalytics.com alpha](https://cruel-carlota.gopagoda.com/29597cbeb833dd1db35481b51a5f3924 "githalytics.com")](http://githalytics.com/olihel/github-base)
+[![githalytics.com alpha](https://cruel-carlota.gopagoda.com/daeced504d9437934ae97a5320ee52a4 "githalytics.com")](http://githalytics.com/olihel/github-base)
 
 <sub>**License**</sub>  
 <sub>The MIT License (MIT)</sub>  
